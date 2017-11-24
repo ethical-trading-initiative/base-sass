@@ -1,9 +1,9 @@
 // Import external libraries.
-@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
-@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
-@import "../bower_components/bohea-sass-tools/sass/bohea-sass-tools";
+@import "../../node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "../../node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "../../node_modules/bohea-sass-tools/sass/bohea-sass-tools";
 // NOTE: LibSass-only feature: importing .css file directly into Sass.
-@import "../bower_components/normalize.css/normalize";
+@import "../../node_modules/normalize.css/normalize";
 
 // Import various partials (some via gulp-sass-globbing - see gulpfile.js).
 @import "variables/**/*.scss";
