@@ -1,7 +1,5 @@
-input {
-  @include placeholder {
-    color: $c-grey-d2;
-  }
+input::placeholder {
+  color: $c-grey-d2;
 }
 
 textarea {
