@@ -2,6 +2,7 @@
   "name": "@ethical-trading-initiative/base-sass",
   "version": "1.1.0",
   "author": "Dan Bohea",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.4.1",
     "bohea-sass-tools": "^1.0.0",
