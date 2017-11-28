@@ -1,7 +1,6 @@
 {
   "name": "eti_base_styles",
   "version": "1.0.0",
-  "private": true,
   "author": "Dan Bohea",
   "devDependencies": {
     "autoprefixer": "^6.4.1",
