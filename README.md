@@ -1,1 +1,1 @@
-# ETI base styles
+# ETI base Sass
