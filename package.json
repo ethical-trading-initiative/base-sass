@@ -1,5 +1,5 @@
 {
-  "name": "eti_base_styles",
+  "name": "@ethicaltrade/base_styles",
   "version": "1.0.0",
   "author": "Dan Bohea",
   "devDependencies": {
