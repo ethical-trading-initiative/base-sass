@@ -86,5 +86,12 @@ $c-menu-fg: white;
 // Refactor
 // -----------------------------------------------------------------------------
 
-// TODO: Update legacy variable naming convention
+// Borders
+// TODO: Improve naming convention.
 $default-border-color: $c-grey-l3;
+
+// Tables
+// TODO: Improve naming convention.
+$c-th: $c-grey-d2;
+$c-tr-odd: $c-white;
+$c-tr-even: $c-grey-l5;
