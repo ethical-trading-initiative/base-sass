@@ -1,3 +1,2 @@
-/dist
-!/dist/css/reset.css
+/dist/**/*.map
 /node_modules
