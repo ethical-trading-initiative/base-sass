@@ -10,8 +10,9 @@ table {
 th {
   padding: $space $space/2;
   background: $c-th;
-  color: $c-white;
+  color: white;
   font-weight: normal;
+  text-align: left;
   &.active, // D7
   &.is-active { // D8
     background: darken($c-th, 2%);
@@ -19,7 +20,7 @@ th {
   a,
   a.active, // D7
   a.is-active { // D8
-    color: $c-white;
+    @include link-colors(white, darken(white, 15%));
     img {
       margin: 3px 3px 0 $space;
     }
