@@ -1,7 +1,10 @@
+// TODO: Remove all Drupal-specific classes from this file (move to Drupal theme).
+
 table {
   width: 100%;
   margin-bottom: $space;
   font-size: rem-scale(-1);
+  border-spacing: 0;
 }
 
 th {
@@ -9,10 +12,13 @@ th {
   background: $c-th;
   color: $c-white;
   font-weight: normal;
-  &.active {
+  &.active, // D7
+  &.is-active { // D8
     background: darken($c-th, 2%);
   }
-  a, a.active {
+  a,
+  a.active, // D7
+  a.is-active { // D8
     color: $c-white;
     img {
       margin: 3px 3px 0 $space;
@@ -22,24 +28,26 @@ th {
 
 tr {
   background: $c-tr-odd;
-  &.odd {
+  &.odd, // D7
+  &:nth-child(odd) {
     background: $c-tr-odd;
+    td.active, // D7
+    td.is-active { // D8
+      background: darken($c-tr-odd, 2%);
+    }
   }
-  &.even,
+  &.even, // D7
   &:nth-child(even) {
     background: $c-tr-even;
+    td.active, // D7
+    td.is-active { // D8
+      background: darken($c-tr-even, 2%);
+    }
   }
 }
 
 td {
   padding: $space $space/2;
-}
-
-tr.odd td.active {
-  background: darken($c-tr-odd, 2%);
-}
-tr.even td.active {
-  background: darken($c-tr-even, 2%);
 }
 
 caption {
