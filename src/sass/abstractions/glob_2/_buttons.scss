@@ -1,11 +1,11 @@
 @mixin btn-colors($text, $bg, $h-text: $text, $h-bg: darken($bg, 10%)) {
   &, &:active, &:visited {
     color: $text;
-    background: $bg;
+    background-color: $bg;
   }
   &:hover, &:focus {
     color: $h-text;
-    background: $h-bg;
+    background-color: $h-bg;
   }
 }
 
