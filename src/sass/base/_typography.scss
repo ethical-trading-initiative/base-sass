@@ -46,7 +46,7 @@ p {
 // -----------------------------------------------------------------------------
 
 blockquote {
-  margin: rem-scale(3) 0;
+  margin: 0 0 rem-scale(0);
   padding: 0 $space*1.5;
   border-left: 0.5em solid $c-grey-l2;
   font-style: italic;
