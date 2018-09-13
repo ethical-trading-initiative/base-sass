@@ -41,10 +41,6 @@ h4, h5, h6, .faux-h4 {
 p {
   margin: 0 0 rem-scale(0);
 }
-p + img {
-  float: left;
-  margin-right: $space;
-}
 
 // Quotes
 // -----------------------------------------------------------------------------
