@@ -2,7 +2,7 @@
   @include webfont($f-secondary);
   @include font-smoothing(on);
   position: relative;
-  margin: 0;
+  margin: 0 0 rem-scale(0);
   color: $c-grey-d2;
   font-weight: bold;
   line-height: 1.3;
@@ -24,7 +24,6 @@
 @mixin h2 {
   @include heading-default;
   font-size: rem-scale(2);
-  margin-bottom: rem-scale(1);
   @include breakpoint($bp-med) {
     font-size: rem-scale(3);
   }
@@ -33,15 +32,12 @@
 @mixin h3 {
   @include heading-default;
   font-size: rem-scale(1);
-  margin-bottom: rem-scale(0);
   @include breakpoint($bp-med) {
     font-size: rem-scale(2);
-    margin-bottom: rem-scale(1);
   }
 }
 
 @mixin h4 {
   @include heading-default;
   font-size: rem-scale(1);
-  margin-bottom: rem-scale(0);
 }
