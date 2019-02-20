@@ -8,9 +8,7 @@
 // -----------------------------------------------------------------------------
 
 // Universal inheritance
-*,
-::after,
-::before {
+* {
   box-sizing: inherit;
   color: inherit;
   font-family: inherit;
